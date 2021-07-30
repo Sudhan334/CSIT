@@ -40,5 +40,3 @@ $table = "<table border = '1px solid black' style = 'width:100%'>
 ";
 echo $table;
 ?>
-hygtfretfyhuj
-siddicharan
