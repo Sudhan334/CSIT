@@ -28,7 +28,7 @@ $students = [
 ];
 
 echo $students['third']['name'];
-
+//output: sachin
 
 
 
@@ -42,7 +42,7 @@ echo $students[2]['program'];
 $students[1]['program'] = "Bsc. CSIT";
 
 print_r($students); // print_r() function is used while printing array variable 
-echo "<pre>";
+// echo "<pre>";
 
 //accessing array elements
 echo $student[2];

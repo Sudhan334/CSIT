@@ -24,7 +24,8 @@ $name1 = "Sudhan";
 $lname = "Bhandari";
 $name1.=$lname;
 echo $name1;
-
+echo "<br>";
+var_dump ($name1);
 
 $table = "<table border = '1px solid black' style = 'width:100%'>
     <tr>
@@ -40,3 +41,14 @@ $table = "<table border = '1px solid black' style = 'width:100%'>
 ";
 echo $table;
 ?>
+<br>
+ <?php
+$a = 6;
+$b = 7;
+echo $a + $b;
+echo "<br>";
+echo var_dump($a);
+echo "\$a +/ \$b";
+ 
+?>
+
