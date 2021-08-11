@@ -58,7 +58,25 @@ do {
     $a++;
 }while ($a < 10);
     ?>
-    
+     <?php
+        function print5(){
+            echo "<br>"."FIVE";
+        }
+        print5();
+        function add($num){
+           echo "<br>" .$num+5;
+        }
+        add(4);
+
+        $str = "This is string.";
+       echo "<br>" .str_word_count($str);
+       echo "<br>" .strrev($str);
+       echo "<br>" .strpos($str,"in");
+       echo "<br>" .str_replace("is","at",$str);
+
+       
+    ?>
     </div>
+   
 </body>
 </html>

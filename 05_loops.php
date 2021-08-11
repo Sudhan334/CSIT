@@ -54,7 +54,12 @@ echo "<br/>.............2. White Loop ............<br/>";
 
 
     echo "<br/>................3. Foreach Loop .............<br/>";
-
+    <?php 
+    $arr = ['BMC','Nepathya','LCC','LEC'];
+    foreach($arr as $k => $v){
+        echo $v."<br>";
+    }
+   
 
 
 
